@@ -1,0 +1,1021 @@
+/**
+ * Custom CSS
+ * Use this file to override styles if you feel uncomfortable editing
+ * component stylesheets.
+ ============================================================================ */
+
+/* To change logo for mobile devices */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600');
+h1,
+.h1 {
+    text-align: left;
+}
+
+marquee {
+    font-family: 'Poppins', sans-serif;
+    color: #ff5252;
+}
+
+/* Spacing Between the Marquee and Content */
+
+#main-content {
+    margin-top: -30px;
+}
+
+/* Admission 2018 Starts Here */
+
+.admission {
+    border: solid #550003;
+    text-align: center;
+    padding: 10px;
+    margin-right: 7px;
+    color: #550003;
+    margin-bottom: 10px;
+}
+
+.admission:hover {
+    border: solid #ff5252;
+}
+
+.admission a {
+    text-decoration: none;
+    color: #550003;
+}
+
+.admission a:hover {
+    text-decoration: none;
+    color: #ff5252;
+}
+
+/* Notice New Gif starts Here */
+
+.views-row {
+    color: red;
+    background-image: url("/mgmcet/sites/default/files/new2.gif");
+    background-repeat: no-repeat;
+}
+
+.views-field.views-field-created {
+    font-size: 0px;
+}
+
+/* Notice New Gif ends Here */
+
+/* Notice Board NEW GIF section */
+
+.views-field.views-field-title {
+    margin-top: -27px;
+}
+
+/* Date Section in Notice */
+
+.views-field.views-field-created {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #ff5252;
+    /* font-size: 14px; */
+}
+
+/* Home Page Description after Slider */
+
+.clearfix.text-formatted.field.field-node--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px 30px;
+    line-height: 1.8;
+}
+
+/* Institute Code */
+
+#block-searchform-menu span {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    padding: 10px 33px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Notice Board Title */
+
+.field-content a {
+    color: #696969;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.field-content a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.view-content {
+    padding: 15px 10px 15px 15px;
+}
+
+.views-row {
+    margin-bottom: 20px;
+}
+
+html,
+body {
+    background: #333;
+}
+
+.block__inner.block-menu__inner h2 span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+/* Credit Page */
+
+.clearfix.text-formatted.field.field-node--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single a {
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix.text-formatted.field.field-node--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single a:hover {
+    text-decoration: none;
+    color: #550003;
+}
+
+.clearfix.text-formatted.field.field-node--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single h2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+.clearfix.text-formatted.field.field-node--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single h4 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+
+.clearfix.text-formatted.field.field-node--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 484px) {
+    img.site-branding__logo-img {
+        content: url("../../../../sites/default/files/mgm_logo_mob_rp.png");
+    }
+}
+
+div.view.view-news.view-id-news.view-display-id-block_1 {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+}
+
+.field__item h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.field__item ul li h3 a {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.field__item ul li h3 a:hover {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+/***************** NOTICE_SECTION LEFT(DEPARTMENT)**********************/
+
+#block-views-block-news-block-1 {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+#block-views-block-news-block-1-title {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+}
+
+/******************NOTICE_SECTION LEFT(DEPARTMENT) END****************/
+
+/***************** NOTICE_SECTION RIGHT(EXCEPT DEPARTMENT)**********************/
+
+#block-views-block-news-block-1-2 {
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+#block-views-block-news-block-1-2-title {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+}
+
+/******************NOTICE_SECTION RIGHT(EXCEPT DEPARTMENT) END****************/
+
+/******************H1,H2 tags -bold*********************/
+
+.node__content .field__items .field__item h1,
+h2 {
+    font-weight: bold;
+}
+
+/******************H1,H2 tags -bold - END*********************/
+
+/********************NAVBAR _ LINKS**************************/
+
+/* To change color of active link in navbar and removing its clicking functionality */
+
+.menu.odd.menu-level-1.menu-name--main a.menu__link.is-active {
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* To change color of link above current link in menu */
+
+ul.menu.odd.menu-level-1.menu-name--main>li.menu__item.is-parent.menu__item--expanded.menu__item--active-trail>span.menu__link--wrapper.is-parent__wrapper>a.menu__link {}
+
+/* To change color of top level menu-link*/
+
+ul.menu.odd.menu-level-1.menu-name--main>li.menu__item.is-parent.menu__item--expanded.menu__item--active-trail>ul.menu.is-child.even.menu-level-2>li.menu__item.is-parent.menu__item--expanded.menu__item--active-trail>span.menu__link--wrapper.is-parent__wrapper>a.menu__link {
+    background-color: white;
+    color: black;
+}
+
+/* To change color of active link in navbar on mobile devices */
+
+.rm-block__content a.menu__link.is-active {
+    background-color: white;
+}
+
+/********************NAVBAR _ LINKS - END**************************/
+
+div.block__inner.block-menu__inner div.block__content.block-menu__content ul.menu.odd.menu-level-1.menu-name--footer li.menu__item.is-parent.menu__item--expanded {
+    width: 33.33%;
+}
+
+div.block__inner.block-menu__inner div.block__content.block-menu__content ul.menu.odd.menu-level-1.menu-name--footer li.menu__item.is-parent.menu__item--expanded span.menu__link--wrapper is-parent__wrapper a.menu__link {
+    margin-bottom: -10px;
+}
+
+div.block__inner.block-menu__inner div.block__content.block-menu__content ul.menu.odd.menu-level-1.menu-name--footer ul.menu.is-child.even.menu-level-2 {
+    display: block;
+    width: 60%;
+}
+
+div.block__inner.block-menu__inner div.block__content.block-menu__content ul.menu.odd.menu-level-1.menu-name--footer ul.menu.is-child.even.menu-level-2 li.menu__item {
+    margin-bottom: -15px;
+}
+
+div.block__inner.block-menu__inner div.block__content.block-menu__content ul.menu.odd.menu-level-1.menu-name--footer {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+div.l-pr.attribution {
+    background-color: #550003;
+    color: #fff;
+    text-align: center;
+}
+
+a.attribution__link:active {
+    font-size: 12px;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+a.attribution__link:hover,
+a.attribution__link:focus {
+    text-decoration: none;
+    cursor: default;
+}
+
+.l-pr.attribution {
+    display: none;
+}
+
+.clearfix.text-formatted.field.field-block-content--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single a {
+    padding: 0px 5px;
+}
+
+.clearfix.text-formatted.field.field-block-content--body.field-formatter-text-default.field-name-body.field-type-text-with-summary.field-label-hidden.has-single a img {
+    height: 20px;
+    width: 20px;
+}
+
+/***************** DEPARTMENT_NAVIGATION_SECTION**********************/
+
+/*****************COMMON SECTION**********************/
+
+/*BOX*/
+
+.l-r.region.pr-main__sidebar-first .block__inner.block-menu__inner {
+    background-color: #550003;
+    box-sizing: border-box;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.block__content.block-menu__content {
+    padding-left: 10px;
+}
+
+.block__content.block-menu__content ul li a {
+    color: #fff;
+}
+
+/*****************COMMON SECTION END**********************/
+
+/*****************COMPUTER ENGG**********************/
+
+/*HEADER*/
+
+#block-departmentnavigation-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINE*/
+
+/*#block-departmentnavigation ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted white;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--department-navigation
+/*ul*/
+
+a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************COMPUTER ENGG END**********************/
+
+/*****************F.E.**********************/
+
+/*HEADER*/
+
+#block-ugfirstyearengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINE*/
+
+/*#block-ugfe--2 ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---first-year-engg
+/*ul*/
+
+a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************F.E. END**********************/
+
+/*****************IT ENGG**********************/
+
+/*HEADER*/
+
+#block-ugitengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINE*/
+
+/*		#block-ugitengineering ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---it-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************IT ENGG END**********************/
+
+/*****************BIOMEDICAL ENGG**********************/
+
+/*HEADER*/
+
+#block-ugbiomedicalengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-ugbiomedicalengineering ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---biomedical-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************BIOMEDICAL ENGG END**********************/
+
+/*****************BIO-TECHNOLOGY ENGG**********************/
+
+/*HEADER*/
+
+#block-ugbiotechnologyengineerng-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-ugbiotechnologyengineerng ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---bio-technology-enginee a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************BIO-TECHNOLOGY ENGG END**********************/
+
+/*****************CHEMICAL ENGG**********************/
+
+/*HEADER*/
+
+#block-ugchemicalengineerng-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-ugchemicalengineerng ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---chemical-engg-cell a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************CHEMICAL ENGG END**********************/
+
+/*****************CIVIL ENGG**********************/
+
+/*HEADER*/
+
+#block-ugcivilengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-ugcivilengineering ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---civil-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************CIVIL ENGG END**********************/
+
+/*****************EXTC ENGG**********************/
+
+/*HEADER*/
+
+#block-ugextcengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-ugextcengineering ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---extc-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************EXTC ENGG END**********************/
+
+/*****************ELECTRICAL ENGG**********************/
+
+/*HEADER*/
+
+#block-ugelectricalengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-ugelectricalengineering ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---electrical-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************ELECTRICAL ENGG END**********************/
+
+/*****************MECHANICAL ENGG**********************/
+
+/*HEADER*/
+
+#block-ugmechanicalengineerng-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-ugmechanicalengineerng ul li a{
+			text-decoration: none;
+			border-bottom: 1px dotted blue;
+		}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--ug---mechanical-engineerng a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************MECHANICAL ENGG END**********************/
+
+/*****************PG**********************/
+
+/*****************PG BIOMEDICAL ENGG**********************/
+
+/*HEADER*/
+
+#block-pgbiomedicalengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-pgbiomedicalengineering ul li a{
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}
+*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--pg---biomedical-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************PG BIOMEDICAL ENGG END**********************/
+
+/*****************PG CHEMICAL ENGG**********************/
+
+/*HEADER*/
+
+#block-pgchemicalengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*			#block-pgchemicalengineering ul li a{
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}
+*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--pg---chemical-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************PG CHEMICAL ENGG END**********************/
+
+/*****************PG COMPUTER ENGG**********************/
+
+/*HEADER*/
+
+#block-pgcomputerengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-pgcomputerengineering ul li a{
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}
+*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--pg---computer-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************PG COMPUTER ENGG END**********************/
+
+/*****************PG EXTC ENGG**********************/
+
+/*HEADER*/
+
+#block-pgextcengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-pgextcengineering ul li a{
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--pg---extc-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************PG EXTC ENGG END**********************/
+
+/*****************PG STRUCTURAL ENGG**********************/
+
+/*HEADER*/
+
+#block-pgstructuralengineering-menu {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #550003;
+    border-bottom: 1px solid white;
+}
+
+/*DOTTED LINES*/
+
+/*#block-pgstructuralengineering ul li a{
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}*/
+
+/*ACTIVE LINK WHITE WITH GREEN BACKGROUND*/
+
+.menu.odd.menu-level-1.menu-name--pg---structural-engineering a.menu__link.is-active {
+    color: #fff;
+}
+
+/*****************PG STRUCTURAL ENGG END**********************/
+
+/*****************PG END**********************/
+
+/******************DEPARTMENT_NAVIGATION_END****************/
+
+/***************** DEPARTMENT_NAVIGATION_CELL_SECTION**********************/
+
+/*****************COMPUTER ENGG**********************/
+
+#block-departmentnavigationcell .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************COMPUTER ENGG END**********************/
+
+/*****************IT ENGG**********************/
+
+#block-ugitengineering-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************IT ENGG END**********************/
+
+/*****************BIOMEDICAL ENGG**********************/
+
+#block-ugbiomedicalengineering-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************IT ENGG END**********************/
+
+/*****************BIO-TECHNOLOGY ENGG**********************/
+
+#block-ugbiotechnologyengineerng-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************BIOTECHNOLOGY ENGG END**********************/
+
+/*****************CHEMICAL ENGG**********************/
+
+#block-ugchemicalengineerng-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************CHEMICAL ENGG END**********************/
+
+/*****************CHEMICAL ENGG**********************/
+
+#block-ugcivilengineering-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************CHEMICAL ENGG END**********************/
+
+/*****************EXTC ENGG**********************/
+
+#block-ugextcengineering-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************EXTC ENGG END**********************/
+
+/*****************ELECTRICAL ENGG**********************/
+
+#block-ugelectricalengineering-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************ELECTRICAL ENGG END**********************/
+
+/*****************MECHANICAL ENGG**********************/
+
+#block-ugmechanicalengineerng-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************MECHANICAL ENGG END**********************/
+
+/*****************PG**********************/
+
+/*****************PG BOIMEDICAL ENGG**********************/
+
+#block-pgbiomedicalengineering-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************PG BIOMEDICAL ENGG END**********************/
+
+/*****************PG CHEMICAL ENGG**********************/
+
+#block-pgchemicalengineering-2 .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************PG CHEMICAL ENGG END**********************/
+
+/*****************PG COMPUTER ENGG**********************/
+
+#block-pgcomputerengineering-2-menu .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************PG COMPUTER ENGG END**********************/
+
+/*****************PG EXTC ENGG**********************/
+
+#block-pgextcengineering-2-menu .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************PG EXTC ENGG END**********************/
+
+/*****************PG STRUCTURAL ENGG**********************/
+
+#block-pgstructuralengineering-2-menu .block__content.block-menu__content {
+    background-color: #550003;
+}
+
+/*****************PG STRUCTURAL ENGG END**********************/
+
+/*****************PG END**********************/
+
+/***************** DEPARTMENT_NAVIGATION_CELL_END**********************/
+
+/*****************FOOTER SECTION**********************/
+
+/*****************SUB-FEATURE**********************/
+
+#sub-features {
+    background-color: #550003;
+}
+
+#sub-features .field__items tr th {
+    background-color: #550003;
+    text-align: left
+}
+
+#sub-features .field__items tr td {
+    background-color: #550003;
+    color: #fff;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#sub-features .field__items tr th h2 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    /* margin-bottom: 0px; */
+}
+
+#sub-features .field__items tr {
+    border: none;
+}
+
+#sub-features .field__items tr th {
+    border: none;
+}
+
+#sub-features .field__items tr td a {
+    color: #fff;
+}
+
+#sub-features .field__items tr td a:hover {
+    text-decoration: underline;
+}
+
+/*****************SUBFEATURE END**********************/
+
+/*****************FOOTER**********************/
+
+.l-r.region.pr-footer__footer .field__item div a img {
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+
+.l-r.region.pr-footer__footer .field__item div a {
+    color: #fff;
+}
+
+.l-r.region.pr-footer__footer .field__item div a:hover {
+    text-decoration: underline;
+}
+
+/*****************FOOTER END**********************/
+
+/*****************FOOTER SECTION END**********************/
+
+/*****************PHOTO GALLERY**********************/
+
+/*.photo-gallery table tr td {
+	background-color: none;
+}*/
+
+/*****************PHOTO GALLERY END**********************/
+
+/*****************PLACEMENT TPO TABLE**********************/
+
+/*
+	.tpo-table table {
+	    border-collapse: collapse;
+	    width: 100%;
+	}
+	.tpo-table th,.tpo-table td {
+	    text-align: left;
+	    padding: 8px;
+	}
+
+	.tpo-table table tr:nth-child(even) td{
+		background-color: #f2f2f2;
+		color: black;
+	}
+
+	.tpo-table table tr:nth-child(odd) td{
+		background-color: #fff;
+		color: black;
+	}
+
+	.tpo-table table tr th {
+	    background-color: #4CAF50;
+	    color: white; 
+	}
+*/
+
+/*****************PLACEMENT TPO TABLE END**********************/
+
+/*****************Faculty-Table Every Department**********************/
+
+.faculty-table tr td img {
+    width: 100px;
+    height: 100px;
+    padding: 1px 1px 1px 1px;
+    border: 1px solid black;
+}
+
+/*.faculty-table tr td{
+	text-align: left;
+}*/
+
+/*****************Faculty-Table Every Department END**********************/
+
+/*****************Custom Header**********************/
+
+.name {
+    float: right;
+    color: #550003;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+/*****************Customer Header END*****************3****/
+
+div.block__inner.block__content.contextual-region.view.view-news.view-id-news.view-content.views-row {
+    margin: 0 0 1.125rem;
+}

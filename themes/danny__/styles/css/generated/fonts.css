@@ -1,0 +1,29 @@
+html,
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.menu a {
+    font-family: "Spirax", sans-serif;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    font-family: David Libre, sans-serif;
+}
+
+h1,
+.h1 {
+    font-family: David Libre, sans-serif;
+}
+
+h2,
+.h2 {
+    font-family: , sans-serif;
+}

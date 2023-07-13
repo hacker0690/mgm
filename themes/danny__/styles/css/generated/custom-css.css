@@ -1,0 +1,64 @@
+/* Custom CSS */
+
+/* To change the width of body when using large screen devices*/
+
+@media only screen and (min-width: 60.063em) {
+    html {
+        background: url(../images/bg-body.gif) 0 0 repeat #e9e4e0;
+    }
+    body {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* To change logo for mobile devices */
+
+@media only screen and (max-width: 484px) {
+    img.site-branding__logo-img {
+        content: url("../../../../../sites/default/files/mgm_logo_mob_rp.png");
+    }
+}
+
+/*div.l-pr.page__row.pr-main.regions-multiple{
+	background: url(../images/bg-body.gif) 0 0 repeat #e9e4e0;
+}*/
+
+/* To capitalize Home link on navbar*/
+
+.menu__item-title--home {
+    text-transform: capitalize;
+}
+
+/* To change color of active link in navbar */
+
+a.menu__link.is-active {
+    background-color: #32821F;
+}
+
+/* To change color of parent navbar link of active link */
+
+/*li.menu__item.is-parent.menu__item--expanded.menu__item--active-trail
+ul.menu.is-child.even.menu-level-2 
+li.menu__item.is-parent.menu__item--expanded.menu__item--active-trail 
+span.menu__link--wrapper.is-parent__wrapper a.menu__link{
+	background-color: #32821F;
+}
+
+ul.menu.odd.menu-level-1.menu-name--main
+li.menu__item.is-parent.menu__item--expanded.menu__item--active-trail.menu__item-title--departments
+span.menu__link--wrapper.is-parent__wrapper
+a.menu__link{
+	background-color: #32821F;
+}*/
+
+/* To change color of active link in navbar on mobile devices */
+
+.rm-block__content a.menu__link.is-active {
+    background-color: #32821F;
+}
+
+header.l-pr.page__row.pr-header {
+    background-color: inherit;
+}

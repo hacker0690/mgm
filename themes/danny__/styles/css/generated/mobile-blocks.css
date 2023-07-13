@@ -1,0 +1,146 @@
+@media all and (max-width: 45em) {
+    #block-views-block__news-block-1 {
+        display: none
+    }
+    #block-departmentnavigation {
+        display: none
+    }
+    #block-ugitengineering {
+        display: none
+    }
+    #block-ugbiomedicalengineering {
+        display: none
+    }
+    #block-ugbiotechnologyengineerng {
+        display: none
+    }
+    #block-ugchemicalengineerng {
+        display: none
+    }
+    #block-ugcivilengineering {
+        display: none
+    }
+    #block-ugextcengineering {
+        display: none
+    }
+    #block-ugelectricalengineering {
+        display: none
+    }
+    #block-ugmechanicalengineerng {
+        display: none
+    }
+    #block-pgbiomedicalengineering {
+        display: none
+    }
+    #block-pgchemicalengineering {
+        display: none
+    }
+    #block-pgcomputerengineering {
+        display: none
+    }
+    #block-pgextcengineering {
+        display: none
+    }
+    #block-pgstructuralengineering {
+        display: none
+    }
+    #block-ugfirstyearengineering {
+        display: none
+    }
+}
+
+@media all and (min-width: 45.063em) and (max-width: 60em) {
+    #block-departmentnavigation {
+        display: none
+    }
+    #block-ugitengineering {
+        display: none
+    }
+    #block-ugbiomedicalengineering {
+        display: none
+    }
+    #block-ugbiotechnologyengineerng {
+        display: none
+    }
+    #block-ugchemicalengineerng {
+        display: none
+    }
+    #block-ugcivilengineering {
+        display: none
+    }
+    #block-ugextcengineering {
+        display: none
+    }
+    #block-ugelectricalengineering {
+        display: none
+    }
+    #block-ugmechanicalengineerng {
+        display: none
+    }
+    #block-pgbiomedicalengineering {
+        display: none
+    }
+    #block-pgchemicalengineering {
+        display: none
+    }
+    #block-pgcomputerengineering {
+        display: none
+    }
+    #block-pgextcengineering {
+        display: none
+    }
+    #block-pgstructuralengineering {
+        display: none
+    }
+    #block-ugfirstyearengineering {
+        display: none
+    }
+}
+
+@media all and (min-width: 60.063em) {
+    #block-departmentnavigationcell {
+        display: none
+    }
+    #block-ugitengineering-2 {
+        display: none
+    }
+    #block-ugbiomedicalengineering-2 {
+        display: none
+    }
+    #block-ugbiotechnologyengineerng-2 {
+        display: none
+    }
+    #block-ugchemicalengineerng-2 {
+        display: none
+    }
+    #block-ugcivilengineering-2 {
+        display: none
+    }
+    #block-ugextcengineering-2 {
+        display: none
+    }
+    #block-ugelectricalengineering-2 {
+        display: none
+    }
+    #block-ugmechanicalengineerng-2 {
+        display: none
+    }
+    #block-pgbiomedicalengineering-2 {
+        display: none
+    }
+    #block-pgchemicalengineering-2 {
+        display: none
+    }
+    #block-pgcomputerengineering-2 {
+        display: none
+    }
+    #block-pgextcengineering-2 {
+        display: none
+    }
+    #block-pgstructuralengineering-2 {
+        display: none
+    }
+    #block-ugfirstyearengineeringcell {
+        display: none
+    }
+}
